@@ -14,10 +14,10 @@
   
   Asteroid.COLOR = "blue";
   
-  Asteroid.RADIUS = 50;
+  Asteroid.RADIUS = 5;
   
   Asteroid.randomVec = function() {
-    return [(Math.random() * 3) - 1, (Math.random() * 3) - 1];
+    return [(Math.random() * 11) - 5, (Math.random() * 11) - 5];
   };
   
   Asteroid.randomAsteroid = function(dimX, dimY) {

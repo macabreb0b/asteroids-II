@@ -7,7 +7,7 @@
     this.ctx = ctx;
     this.asteroids = [];
     
-    this.addAsteroids(10);
+    this.addAsteroids(20);
     
   };
   
